@@ -13,5 +13,4 @@ const findPhoneByName = (name) => {
     }
   }
 };
-
-module.exports = { phonebook, findPhoneByName };
+console.log(findPhoneByName('Julius Caesar'));
